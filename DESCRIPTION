@@ -1,0 +1,20 @@
+Package: ORFfinderR
+Title: Finding Possible ORF(Open Reading Frame) of A Sequence
+Version: 0.0.1
+Author: Jun Zhang
+Maintainer: Jun Zhang <3219030654@stu.cpu.edu.cn>
+Description: Finding ORFs (Open Reading Frames) in a Given DNA Sequence using a Modified Version of ORFFinder("https://github.com/Chokyotager/ORFFinder").
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    Biostrings,
+    cowplot,
+    dplyr,
+    ggplot2,
+    ggside,
+    magrittr,
+    purrr,
+    reticulate,
+    stringr
