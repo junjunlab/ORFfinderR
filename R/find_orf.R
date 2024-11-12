@@ -159,7 +159,7 @@ find_orf <- function(seq_obj = NULL,
         res <- unique(rbind(tmp1,tmp2)) %>%
           dplyr::ungroup()
       }else{
-        res <- pos_info
+        res <- pos_info_ft
       }
 
       # add frame
